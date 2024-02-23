@@ -1,0 +1,126 @@
+* {
+    /* xoa khoang cach mac dinh  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* don vi px co the co hoc khong 
+    margin auto chi co margin co */
+}
+.clear{
+
+}
+.container{
+    /* can noi dung phan chinh, ca body co khang cach trai phai bang nhau */
+    /* width: 1140px; */
+    margin: auto;
+    width: 90%;
+}
+body{
+    background-color: #faf4f2;
+}
+.clear{
+    clear: both;
+}
+.header {
+    background-color: #f8e1db;
+    padding: 10px;
+}
+
+.header li {
+    list-style: none;
+    /* sap cac the len 1 hang  */
+    display: inline;
+    margin-right: 20px;
+}
+
+/* xoa dau cham tron den */
+/* xoa gach chan the a  */
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul {
+    margin-top: 15px;
+}
+.carousel{
+    background-image: url(../Image/BG.png);
+    height: 700px;
+    /* thieu chieu cao khong hien duoc anh  */
+    background-position: center;
+    background-size: cover;
+}
+.activies{
+    background-color: #f8e1db;
+    padding: 100px 0;
+    text-align: center;
+}
+.activies_content{
+    margin: 30px 0;
+}
+.activies_item{
+    float: left;
+    width:25%;
+    padding: 0 20px;
+    /* border: 1px solid yellow; */
+}
+.activies_img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.activies_bg{
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 15px;
+    border-radius: 20px;
+}
+.activies_icon{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.62);
+    /* rgba: mã màu có độ trong suốt  */
+    display: block;
+    color: yellow;
+    font-size: 40px;
+    line-height: 80px;
+    /* căn giữa icon 1 ký tự  */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* opacity trong suốt cả thẻ con và cha */
+
+}
+.activies_img{
+    position: relative;
+}
+.activies_item button{
+    padding: 10px 30px;
+    background-color: #e7e8e7;
+    color: #8d8e8d;
+    border: 1px solid #e7e8e7;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.activies_button button{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #e76f51;
+    border: 1px solid #e76f51;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.activies_button button:hover{
+    background-color: #e76f51;
+    color: white;  
+}
+
+
+
+/* .test{ 
+    width: 50%;
+    background-color: pink;
+}
+.testPX{
+    width: 1000px;
+    background-color: purple;
+} */
